@@ -1,0 +1,51 @@
+@import "/src/app/shared/style/variables.scss";
+
+.dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: $backdrop-theme;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-container {
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form-button {
+  margin-left: auto;
+}
+
+.dialog-title {
+  margin-bottom: 20px;
+  font-size: $medium-font;
+  font-weight: $bold-font;
+}
+
+input {
+  border-bottom: 2px solid $red-theme;
+  flex-grow: 1;
+}
+
+.form-field-wrapper {
+  gap: 10px;
+  display: flex;
+}
+
+.form-error {
+  font-size: $very-small-font;
+  color: $red-theme;
+}
