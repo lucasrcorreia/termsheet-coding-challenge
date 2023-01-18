@@ -1,0 +1,72 @@
+@import "/src/app/shared/style/variables.scss";
+
+.table-toolbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.table-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+.cell {
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 4px 8px;
+  overflow: hidden;
+}
+
+.cell-id {
+  max-width: 40px;
+  width: 40px;
+}
+
+.cell-name {
+  max-width: 300px;
+  width: 300px;
+}
+
+.cell-address {
+  max-width: 500px;
+  width: 500px;
+}
+
+.cell-price {
+  max-width: 200px;
+  width: 200px;
+}
+
+.cell-noi {
+  max-width: 200px;
+  width: 200px;
+}
+
+.cell-cap {
+  max-width: 90px;
+  width: 90px;
+}
+
+table {
+  border-collapse: collapse;
+  display: block;
+}
+
+tr {
+  border-bottom: 1px solid $red-theme;
+  border-top: 1px solid $red-theme;
+}
+
+th {
+  color: $white-theme;
+  background-color: $red-theme;
+  position: sticky;
+  top: 0;
+  font-weight: $bold-font;
+}
