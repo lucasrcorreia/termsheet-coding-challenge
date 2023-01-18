@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { map } from 'rxjs';
 import { Deal } from 'src/app/shared/interfaces/deal';
-import { DealsService } from './deals.service';
 import { NgxSpinnerService } from "ngx-spinner";
+import { DealsService } from 'src/app/shared/services/deals/deals.service';
 
 @Component({
   selector: 'app-deals',

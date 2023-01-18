@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, inject, Output } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { DealsService } from 'src/app/pages/deals/deals.service';
+import { DealsService } from '../../services/deals/deals.service';
 
 @Component({
   selector: 'app-dialog-deal',
