@@ -1,0 +1,23 @@
+@import "/src/app/shared/style/variables.scss";
+
+.home-container {
+  display: flex;
+  padding: 120px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.title {
+  font-weight: $bold-font;
+  color: $brown-theme;
+  font-size: $big-font;
+}
+
+.subtitle {
+  font-weight: $light-font;
+  color: $red-theme;
+  font-size: $medium-font;
+  max-width: 600px;
+  text-align: center;
+}
